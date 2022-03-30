@@ -1,6 +1,7 @@
 import { parseISO, format } from "date-fns";
+import ptbr from 'date-fns/locale/pt-BR';
 
 export default function Date({ dateString }) {
   const date = parseISO(dateString);
-  return <time dateTime={dateString}>{format(date, "LLLL	d, yyyy")}</time>;
+  return <time dateTime={dateString}>{format(date, "d/MMMM/yyyy", { locale: ptbr })}</time>;
 }
