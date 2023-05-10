@@ -13,7 +13,7 @@ export default function PostPreview({
 }) {
   return (
     <div>
-      <div className="mb-5">
+      <div className="mb-2">
         <CoverImage
           slug={slug}
           title={title}
@@ -25,11 +25,11 @@ export default function PostPreview({
           <a className="hover:underline">{title}</a>
         </Link>
       </h3>
+      <Avatar name={author.name} picture={author.picture} />
+      <p className="text-lg leading-relaxed mb-4">{excerpt}</p>
       <div className="mb-4 text-sm text-zinc-500">
         <Date dateString={date} />
       </div>
-      <p className="text-lg leading-relaxed mb-4">{excerpt}</p>
-      <Avatar name={author.name} picture={author.picture} />
     </div>
   );
 }

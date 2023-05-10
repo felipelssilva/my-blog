@@ -20,12 +20,12 @@ export default function Footer() {
                 Back to home
               </a>
             </Link>
-            <a
+            {/* <a
               href="https://bit.ly/2EluK9Q"
               className="mx-3 font-bold hover:underline"
             >
               View my GitHub
-            </a>
+            </a> */}
           </div>
         </div>
       </Container>

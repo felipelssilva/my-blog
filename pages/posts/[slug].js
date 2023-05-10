@@ -41,7 +41,7 @@ export async function getStaticProps({ params, preview = false }) {
               ...on ImageBlockRecord {
                 id
                 image {
-                  responsiveImage(imgixParams: {fm: jpg, fit: crop, w: 2000, h: 1000 }) {
+                  responsiveImage(imgixParams: {fm: jpg, fit: crop, w: 900, h: 450 }) {
                     ...responsiveImageFragment
                   }
                 }
@@ -50,10 +50,10 @@ export async function getStaticProps({ params, preview = false }) {
           }
           date
           ogImage: coverImage{
-            url(imgixParams: {fm: jpg, fit: crop, w: 2000, h: 1000 })
+            url(imgixParams: {fm: jpg, fit: crop, w: 900, h: 450 })
           }
           coverImage {
-            responsiveImage(imgixParams: {fm: jpg, fit: crop, w: 2000, h: 1000 }) {
+            responsiveImage(imgixParams: {fm: jpg, fit: crop, w: 900, h: 450 }) {
               ...responsiveImageFragment
             }
           }
@@ -67,13 +67,13 @@ export async function getStaticProps({ params, preview = false }) {
           }
         }
 
-        morePosts: allPosts(orderBy: date_DESC, first: 2, filter: {slug: {neq: $slug}}) {
+        morePosts: allPosts(orderBy: date_DESC, first: 4, filter: {slug: {neq: $slug}}) {
           title
           slug
           excerpt
           date
           coverImage {
-            responsiveImage(imgixParams: {fm: jpg, fit: crop, w: 2000, h: 1000 }) {
+            responsiveImage(imgixParams: {fm: jpg, fit: crop, w: 900, h: 450 }) {
               ...responsiveImageFragment
             }
           }

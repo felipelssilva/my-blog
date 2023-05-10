@@ -72,7 +72,7 @@ export default function Index({ subscription }) {
   } = useQuerySubscription(subscription);
 
   const heroPost = allPosts[0];
-  const morePosts = allPosts.slice(1);
+  const morePosts = allPosts;
   const metaTags = blog.seo.concat(site.favicon);
 
   return (
@@ -81,7 +81,7 @@ export default function Index({ subscription }) {
         <Head>{renderMetaTags(metaTags)}</Head>
         <Container>
           <Intro />
-          {heroPost && (
+          {/* {heroPost && (
             <HeroPost
               title={heroPost.title}
               coverImage={heroPost.coverImage}
@@ -90,7 +90,7 @@ export default function Index({ subscription }) {
               slug={heroPost.slug}
               excerpt={heroPost.excerpt}
             />
-          )}
+          )} */}
           {morePosts.length > 0 && <MoreStories posts={morePosts} />}
         </Container>
       </Layout>
