@@ -5,7 +5,7 @@ export default function Intro() {
     <section className="flex-col md:flex-row flex items-center md:justify-between mt-6 mb-16 md:mb-32">
       <h1 className="text-6xl md:text-8xl font-bold tracking-tighter leading-tight md:pr-8">
         <Link href="/">
-          The Blog.
+          Blog - Felipe Luis.
         </Link>
       </h1>
       {/* <h4 className="text-center md:text-left text-lg mt-5 md:pl-8">
@@ -26,7 +26,7 @@ export default function Intro() {
         .
       </h4> */}
       <h4 className="text-center md:text-left text-lg mt-5 md:pl-8">
-        In my blog I will write some of my experiences with programming and something else.
+        Hey there, my name is Felipe Luis and I am a frontend developer with a strong passion for technology and design. 
       </h4>
     </section>
   );
