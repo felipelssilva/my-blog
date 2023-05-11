@@ -5,6 +5,7 @@ export default class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head />
+        <link rel="alternate" type="application/rss+xml" title="Blog Feed" href="https://blog.felipeluis.com.br/feed/" />
         <body>
           <Main />
           <NextScript />
