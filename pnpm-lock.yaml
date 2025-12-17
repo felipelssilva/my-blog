@@ -49,8 +49,8 @@ importers:
         specifier: ^0.5.19
         version: 0.5.19(tailwindcss@4.1.18)
       dotenv:
-        specifier: 14.3.0
-        version: 14.3.0
+        specifier: 17.2.3
+        version: 17.2.3
       postcss-preset-env:
         specifier: ^8.5.1
         version: 8.5.1(postcss@8.5.6)
@@ -474,8 +474,8 @@ packages:
     resolution: {integrity: sha512-0je+qPKHEMohvfRTCEo3CrPG6cAzAYgmzKyxRiYSSDkS6eGJdyVJm7WaYA5ECaAD9wLB2T4EEeymA5aFVcYXCA==}
     engines: {node: '>=6'}
 
-  dotenv@14.3.0:
-    resolution: {integrity: sha512-PCTcOQSXVo9FI1dB7AichJXMEvmiGCq0gnCpjfDUc8505uR+2MeLXWe+Ue4PN5UXa2isHSa78sr7L59fk+2mnQ==}
+  dotenv@17.2.3:
+    resolution: {integrity: sha512-JVUnt+DUIzu87TABbhPmNfVdBDt18BLOWjMUFJMSi/Qqg7NTYtabbvSNJGOJ7afbRuv9D/lngizHtP7QyLQ+9w==}
     engines: {node: '>=12'}
 
   electron-to-chromium@1.5.267:
@@ -1255,7 +1255,7 @@ snapshots:
 
   dequal@2.0.3: {}
 
-  dotenv@14.3.0: {}
+  dotenv@17.2.3: {}
 
   electron-to-chromium@1.5.267: {}
 
