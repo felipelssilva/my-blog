@@ -12,8 +12,8 @@ importers:
         specifier: ^3.4.5
         version: 3.4.5
       classnames:
-        specifier: 2.3.2
-        version: 2.3.2
+        specifier: 2.5.1
+        version: 2.5.1
       date-fns:
         specifier: ^4.1.0
         version: 4.1.0
@@ -479,8 +479,8 @@ packages:
     peerDependencies:
       react: '>=17.0.0'
 
-  classnames@2.3.2:
-    resolution: {integrity: sha512-CSbhY4cFEJRe6/GQzIk5qXZ4Jeg5pcsP7b5peFSDpffpe1cqjASH/n9UTjBwOp6XpMSTwQ8Za2K5V02ueA7Tmw==}
+  classnames@2.5.1:
+    resolution: {integrity: sha512-saHYOzhIQs6wy2sVxTM6bUDsQO4F50V9RQ22qBpEdCW+I+/Wmke2HOl6lS6dTpdxVhb88/I6+Hs+438c3lfUow==}
 
   color-convert@2.0.1:
     resolution: {integrity: sha512-RRECPsj7iu/xb5oKYcsFHSppFNnsj/52OVTRKb4zP5onXwVF3zVmmToNcOfGC+CRDpfK/U584fMg38ZHCaElKQ==}
@@ -1437,7 +1437,7 @@ snapshots:
     dependencies:
       react: 17.0.2
 
-  classnames@2.3.2: {}
+  classnames@2.5.1: {}
 
   color-convert@2.0.1:
     dependencies:
