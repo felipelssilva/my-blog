@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@datocms/cma-client':
-        specifier: ^5.2.2
-        version: 5.2.2
+        specifier: ^5.2.4
+        version: 5.2.4
       classnames:
         specifier: 2.5.1
         version: 2.5.1
@@ -378,8 +378,8 @@ packages:
     peerDependencies:
       postcss: ^8.4
 
-  '@datocms/cma-client@5.2.2':
-    resolution: {integrity: sha512-2UYfue7aymlH1ahJK//36fQh3DFh+NLoJ8vTh6EsrhRNcT2yDuESRKWCcpv9HI8PWEiu7eWEbvf79mJDO6lQWg==}
+  '@datocms/cma-client@5.2.4':
+    resolution: {integrity: sha512-OEQNarqTl/gwlstYrw10fQd+28LjEta4bBVRiNEyUy3v/pxs5IuE5VjcefnPY6NELtC3l+h6MkmDLlpmN2rnyg==}
 
   '@datocms/rest-client-utils@5.1.13':
     resolution: {integrity: sha512-0sGxoLnjagcMb8/lCcar3XuAW7UCszraNsAiCBnb14ibodJbhCQwERkO8kmR9APYh+hlcm8DJ2yVyQAcg413ng==}
@@ -1495,7 +1495,7 @@ snapshots:
     dependencies:
       postcss: 8.5.6
 
-  '@datocms/cma-client@5.2.2':
+  '@datocms/cma-client@5.2.4':
     dependencies:
       '@datocms/rest-client-utils': 5.1.13
       datocms-structured-text-utils: 5.1.7
