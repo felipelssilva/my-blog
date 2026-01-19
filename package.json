@@ -8,7 +8,7 @@
     "export": "next build && next export"
   },
   "dependencies": {
-    "@datocms/cma-client": "^5.2.2",
+    "@datocms/cma-client": "^5.2.6",
     "classnames": "2.5.1",
     "date-fns": "^4.1.0",
     "next": "^12.3.7",
