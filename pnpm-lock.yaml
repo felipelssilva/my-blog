@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@datocms/cma-client':
-        specifier: ^5.2.2
-        version: 5.2.2
+        specifier: ^5.2.8
+        version: 5.2.8
       classnames:
         specifier: 2.5.1
         version: 2.5.1
@@ -378,11 +378,11 @@ packages:
     peerDependencies:
       postcss: ^8.4
 
-  '@datocms/cma-client@5.2.2':
-    resolution: {integrity: sha512-2UYfue7aymlH1ahJK//36fQh3DFh+NLoJ8vTh6EsrhRNcT2yDuESRKWCcpv9HI8PWEiu7eWEbvf79mJDO6lQWg==}
+  '@datocms/cma-client@5.2.8':
+    resolution: {integrity: sha512-D6JA0J2DFjOZnnH9xcARFGhAb0oEjrrn9p/x7ht3/nY14xICpeoqXZ3TGFtQICKcWLf2BtzUjfL5G0PnO68RNA==}
 
-  '@datocms/rest-client-utils@5.1.13':
-    resolution: {integrity: sha512-0sGxoLnjagcMb8/lCcar3XuAW7UCszraNsAiCBnb14ibodJbhCQwERkO8kmR9APYh+hlcm8DJ2yVyQAcg413ng==}
+  '@datocms/rest-client-utils@5.2.8':
+    resolution: {integrity: sha512-3F/S7+4+iiRlrZir66IOONWaXPt1iBVBuODbpemB62TJZx7eZpg9VoPYq7VYyfLWkT1XzyMlTdHSFIpSmYC/5w==}
 
   '@fullhuman/postcss-purgecss@7.0.2':
     resolution: {integrity: sha512-U4zAXNaVztbDxO9EdcLp51F3UxxYsb/7DN89rFxFJhfk2Wua2pvw2Kf3HdspbPhW/wpHjSjsxWYoIlbTgRSjbQ==}
@@ -1495,13 +1495,13 @@ snapshots:
     dependencies:
       postcss: 8.5.6
 
-  '@datocms/cma-client@5.2.2':
+  '@datocms/cma-client@5.2.8':
     dependencies:
-      '@datocms/rest-client-utils': 5.1.13
+      '@datocms/rest-client-utils': 5.2.8
       datocms-structured-text-utils: 5.1.7
       uuid: 9.0.1
 
-  '@datocms/rest-client-utils@5.1.13':
+  '@datocms/rest-client-utils@5.2.8':
     dependencies:
       async-scheduler: 1.4.4
 
